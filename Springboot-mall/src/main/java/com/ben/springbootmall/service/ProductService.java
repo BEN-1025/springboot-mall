@@ -10,4 +10,6 @@ public interface ProductService {
 
     //不會回傳值用void
     void updateProduct(Integer productId,ProductRequest productRequest);
+
+    void deleteProductById(Integer productId);
 }
