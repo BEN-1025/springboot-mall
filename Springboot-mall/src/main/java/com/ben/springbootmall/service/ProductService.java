@@ -7,4 +7,7 @@ public interface ProductService {
     Product getProductById(Integer productId);
 
     Integer createProduct(ProductRequest productRequest);
+
+    //不會回傳值用void
+    void updateProduct(Integer productId,ProductRequest productRequest);
 }
